@@ -1,12 +1,18 @@
 @import '../../styles/globals';
 
 header {
-    background-color: $dark-blue;
-    margin-bottom: 1.45rem;
+    background-color: $white;
+    margin-bottom: 30px;
+    height: 90px;
+    width: 100%;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
 
     div {
+        max-width: $max-width;
+        height: 100%;
         margin: 0 auto;
-        max-width: 960px;
         padding: 1.45rem 1.0875rem;
         display: flex;
         flex-direction: row;
@@ -15,11 +21,44 @@ header {
 
     h1 {
         margin: 0;
+        font-size: 30px;
+        font-family: 'Con'
     }
 
     .header-link {
-        color: white;
+        color: $dark-blue;
         text-decoration: none;
-        font-family: $font-medium-italic;
+        font-family: $font-medium;
+        text-transform: uppercase;
+    }
+
+    .nav {
+        margin: 0;
+        max-width: 100%;
+        padding: 0 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-link {
+        font-family: $font-medium;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $light-blue;
+        margin: 0px 15px;
+        -webkit-transition: color .15s ease-in;
+        -moz-transition: color .15s ease-in;
+        -o-transition: color .15s ease-in;
+        transition: color .15s ease-in;
+        &:hover {
+            color: $blue;
+            -webkit-transition: color .15s ease-in;
+            -moz-transition: color .15s ease-in;
+            -o-transition: color .15s ease-in;
+            transition: color .15s ease-in;
+        }
+        
     }
 }

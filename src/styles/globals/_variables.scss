@@ -1,6 +1,6 @@
 
 // Colors
-$dark-blue: #121b3e;
+$dark-blue: #003366;
 $blue: #4f5984;
 $light-blue: #7090cb;
 $gray: #aaa8a6;
@@ -16,3 +16,20 @@ $font-book: 'futura-book';
 $font-book-italic: 'futura-book-italic';
 $font-medium: 'futura-medium';
 $font-medium-italic: 'futura-medium-italic';
+
+$max-width: 70%;
+
+// Smartphones (portrait view)
+$screen-xs-min: 480px;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
